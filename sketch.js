@@ -185,3 +185,13 @@ function keyReleased() {
     balls[balls.length - 1].shoot();
   }
 }
+
+function gameOver() {
+swal({
+  title:"Game Over ",
+  text:"Thanks for playing",
+  imageUrl:"https://raw.githubusercontent.com/whitehatjr/PiratesInvasion/main/assets/boat.png",
+  imageSize:"150x150",
+  confirmButtonText:"Play Again"
+})
+}
